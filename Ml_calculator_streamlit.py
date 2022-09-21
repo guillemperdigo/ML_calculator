@@ -5,6 +5,7 @@
 
 
 import streamlit as st
+import  scikit-learn as sklearn
 
 # load model
 import pickle
