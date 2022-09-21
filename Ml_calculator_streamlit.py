@@ -8,7 +8,7 @@ import streamlit as st
 
 # load model
 import pickle
-loaded_model = pickle.load(open('/Users/guillem/Documents/ML_calculator/models/knn_calculator.sav', 'rb'))
+loaded_model = pickle.load(open('ML_calculator/models/knn_calculator.sav', 'rb'))
 
 model_name = str(loaded_model.get_params()["estimator"])
 param_combinations = str(loaded_model.get_params()["n_iter"])
